@@ -4,99 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section>
       <nav>
-        <img src="./HTML Practise Assets/FES.svg" class="logo" alt=""  />
+        <img src="./HTML Practise Assets/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">About</a></li>
-           <li><a href="#discord">Discord</a></li>
-           <li><a href="#contact">Contact</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <header>
         <div class="row">
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
-          <button>Start now</button>
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from absolute beginner to pro with a simplified process
+            </p>
+            <button>Start now</button>
+          </div>
+          <figure>
+            <img src="./HTML Practise Assets/laptop.png" alt="" />
+          </figure>
         </div>
-        <figure><img src="./HTML Practise Assets/laptop.png" alt="" /></figure>
-      </div>
-    </header>
+      </header>
     </section>
 
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, ex
-            voluptate aperiam blanditiis, nihil itaque sapiente dolor
-            dignissimos fugit, voluptas architecto maxime voluptatibus deserunt
-            nam excepturi eos. Quo nam deleniti rem ullam voluptas praesentium
-            magnam aperiam harum expedita porro corporis dignissimos voluptatem,
-            totam dicta nobis.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-            temporibus quaerat soluta corporis eligendi ipsam, possimus aperiam
-            vitae eius dolor nihil iste. Aut necessitatibus quod nam qui
-            temporibus sit odit obcaecati repellendus, sint dolor adipisci
-            quisquam esse non, enim quos sequi quas unde consequatur eligendi?
-          </p>
+        <div class="row">
+          <div class="description">
+            <div class="wrapper">
+              <p class="first">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Incidunt aliquid nulla voluptatum, animi tempore quidem, fugit
+                cupiditate labore, itaque accusamus dignissimos natus vel
+                tenetur minus aut dolorem repudiandae optio excepturi.
+              </p>
+              <p class="first">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+                reprehenderit libero pariatur id illum, voluptate ea. Hic, unde
+                velit provident obcaecati tempora ullam ab natus nobis, aliquid
+                corrupti illo vitae.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./HTML Practise Assets/about.jpg" alt="" />
+            </figure>
+          </div>
         </div>
-        <figure><img src="./HTML Practise Assets/about.jpg" alt="" /></figure>
       </section>
       <section id="discord">
         <h2>Discord</h2>
-        <figure><img src="./HTML Practise Assets/discord.png" alt="" /></figure>
-        <div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Blanditiis, velit perferendis temporibus deleniti quae error eos
-            ullam sunt reiciendis tempore fugiat quidem consequatur, est
-            incidunt sint alias corporis repudiandae obcaecati, veniam quos
-            voluptates dicta. Beatae omnis sed porro sapiente id eum pariatur
-            aliquam doloremque. Incidunt?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit illo assumenda nobis quam quasi explicabo dolorem
-            aliquam nostrum cumque excepturi obcaecati facilis, totam reiciendis
-            est necessitatibus placeat eius incidunt. Assumenda placeat nemo
-            fugiat numquam minima, maiores dolore quasi est neque odit
-            reiciendis quas, sapiente amet?
-          </p>
+        <div class="row">
+          <div class="description">
+            <figure class="about__img--wrapper">
+              <img src="./HTML Practise Assets/discord.png" alt="" />
+            </figure>
+            <div class="wrapper">
+              <p class="first">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                optio possimus, quae nostrum porro minus eius odio nisi ullam
+                vel assumenda fugit libero illo molestiae, non eum fuga quod
+                praesentium!
+              </p>
+              <p class="first">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae saepe, voluptatem dignissimos atque doloremque
+                accusantium sequi suscipit sint explicabo, aspernatur non vero
+                esse corrupti cumque facilis in officia ipsum inventore!
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <label for="form">Email</label>
-          <input type="text" placeholder="jane@example.com" />
+          <input type="email" placeholder="jane@example.com" />
           <label for="message">Message</label>
           <textarea
             name="message"
             id=""
             placeholder="Nice website, let's connect!"
           ></textarea>
-          <button>Submit</button>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./HTML Practise Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
+      <img class="footer__logo" src="./HTML Practise Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
